@@ -111,6 +111,7 @@ class EditDocForm extends React.Component {
       <div>
         <div className='edit-doc-container'>
           <div>
+            <div style={{width: '600px', margin: '20px 0px', padding: '10px', background: '#e2e2e2'}}>This page offers a sample of the Worksheet Generator app while it is in progress. This is where users can edit their worksheets. It showcases the drag-and-drop feature, allowing users to easily add new problems and blanks.</div>
             <input
               name='docName'
               value={ this.state.docName }

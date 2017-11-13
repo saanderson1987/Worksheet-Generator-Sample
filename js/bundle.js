@@ -42832,6 +42832,11 @@ var EditDocForm = function (_React$Component) {
           _react2.default.createElement(
             'div',
             null,
+            _react2.default.createElement(
+              'div',
+              { style: { width: '600px', margin: '20px 0px', padding: '10px', background: '#e2e2e2' } },
+              'This page offers a sample of the Worksheet Generator app while it is in progress. This is where users can edit their worksheets. It showcases the drag-and-drop feature, allowing users to easily add new problems and blanks.'
+            ),
             _react2.default.createElement('input', {
               name: 'docName',
               value: this.state.docName,
